@@ -1,0 +1,80 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+body{
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Contenido */
+
+div{
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.volver{
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    width: 15%;
+    font-size: 16px;
+    text-align: center;	
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px rgb(56, 54, 54);
+}
+
+.volver:hover{
+    color: white;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+.inicio{
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    width: 15%;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    background-color: #2cb127;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #16da40;
+}
+
+.inicio:hover{
+    color: white;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}

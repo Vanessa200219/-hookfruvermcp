@@ -1,0 +1,10 @@
+#links{
+    text-decoration: none;
+    font-size: 15px;
+    background: rgb(89, 119, 93);
+    border-radius: 6px;
+    color: white;
+    padding: 8px;
+    border: white 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+}

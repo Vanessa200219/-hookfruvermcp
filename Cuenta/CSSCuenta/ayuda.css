@@ -1,0 +1,105 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+}
+
+
+/* SECCION DE CONTENIDO */
+
+.ayuda{
+    padding: 10% 8%;
+    padding-bottom: 8%;
+    padding-top: 15%;
+	z-index: 1;
+
+}
+
+
+.saludo{
+    font-size: 26px;
+    padding-top: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.general p{
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 26px;
+    width: auto;
+}
+
+
+.pregunta{
+    margin-top: 30px;
+    padding: 20px;
+    width: auto;
+}
+
+
+.pregunta span{
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+
+.pregunta input{
+    border: 1px solid green;
+    margin-left: 12px;
+    justify-content: flex-start;
+    margin-top: 23px;
+    font-style: unset;
+    color: rgb(26, 24, 23);
+    font-size: 16px;
+    width: 30%;
+    padding: 11px;
+    border-radius: 4px;
+    background: #fff;
+    transition: all .2s cubic-bezier(.83,.9,.68,.73);
+}
+
+
+.pregunta input[type="submit"]{
+    margin-right: 12px;
+    background: rgb(51, 179, 51);
+    font-style: unset;
+    color: rgb(248, 244, 241);
+    font-size: 16px;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid green;
+    border-radius: 4px;
+    transition: all .2s cubic-bezier(.83,.9,.68,.73);
+}
+
+
+.frecuentes{
+    margin-top: 20px;
+    padding: 10px;
+    width: 70%;
+}
+
+
+.frecuentes a{
+    text-decoration: none;
+    font-size: 20px;
+    color: green;
+}
+
+.frecuentes a:hover{
+    color: black;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* FIN SECCION DE CONTENIDO */

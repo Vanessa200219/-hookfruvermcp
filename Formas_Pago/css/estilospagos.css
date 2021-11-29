@@ -1,0 +1,191 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+}
+
+/* IMG DE MENU */
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.brand{
+    width: 10px;
+	float: left;
+}
+/* FIN IMG DE MENU */
+
+#header {
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+}
+
+.header {
+	min-height: 11vh;
+	background: #30C30C;
+	transition: 0.3s ease background-color;
+    border-bottom: 1px #30C30C solid;
+}
+
+#header .nav-bar {
+	float: right;
+    background-color: #30C30C;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	width: auto;
+	height: 100%;
+	max-width: 1300px;
+	padding: 0 10px;
+}
+
+#header .nav-list ul {
+	list-style: none;
+	position: absolute;
+	background-color: #2bbb03;
+	width: 100vw;
+	height: 100vh;
+	left: 100%;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	overflow-x: hidden;
+	transition: 0.5s ease left;
+}
+
+#header .nav-list ul.active {
+	left: 0%;
+}
+
+#header .nav-list ul a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	padding: 20px;
+	display: block;
+}
+
+
+#header .nav-list ul a::after {
+	content: attr(data-after);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	color: white;
+	font-size: 13rem;
+	letter-spacing: 50px;
+	z-index: -1;
+	transition: 0.3s ease letter-spacing;
+}
+
+
+#header .nav-list ul li:hover a::after {
+	transform: translate(-50%, -50%) scale(1);
+	letter-spacing: initial;
+}
+
+
+#header .nav-list ul li:hover a {
+	color: black;
+}
+
+.Titulo{
+	margin-top: 20px;
+	font-family: cursive;
+	font-size: 15px;
+	color: #0000ff;
+}
+
+.metodopago{
+    float: left;
+    margin-top: 70px;
+    margin-right: 25px;
+    margin-left: 45px;
+	width: 250px;
+}
+
+.metodopago .img{
+	width: 250px;
+	height: 200px;
+}
+
+.metodo{
+	margin-top: 5px;
+	margin-left: 23px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
+
+.metodo1{
+	margin-top: 33px;
+	margin-left: 47px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
+
+.metodo2{
+	margin-top: 33px;
+	margin-left: 43px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
+
+.metodo3{
+	margin-top: 33px;
+	margin-left: 25px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
+
+.botona{
+	float: left;
+	margin-top: 40px;
+	margin-left: 320px;
+	width: 200px;
+	height: 40px;
+}
+
+.boton{
+	float: left;
+	margin-top: 40px;
+	margin-left: 50px;
+	width: 200px;
+	height: 40px;
+}
+
+.boton1{
+	float: left;
+	margin-top: 2px;
+	margin-left: 5px;
+	width: 190px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: navajowhite;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: x-large;
+}

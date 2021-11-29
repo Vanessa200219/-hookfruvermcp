@@ -1,0 +1,62 @@
+.table__1{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 123px;
+}
+
+.empleado_contenido{
+    background: #fff;
+    font-size: 18px;
+}
+
+
+.titulo_empleado{
+    width: 10%;
+    color: rgb(0, 80, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.acciones{
+    padding: 2%;
+    width: 100%;
+    margin: auto;
+}
+
+
+.eliminar {
+    text-decoration: none;
+    font-size: 18px;
+    background: red;
+    border-radius: 6px;
+    color: white;
+    padding: 8px;
+    border: white 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.eliminar:hover {
+    background: rgb(77, 3, 3);
+    color: white;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+#modificar {
+    text-decoration: none;
+    font-size: 18px;
+    background: rgb(28, 235, 56);
+    border-radius: 6px;
+    color: white;
+    padding: 8px;
+    border: white 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#modificar:hover {
+    background: rgb(5, 148, 29);
+    color: white;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

@@ -1,0 +1,72 @@
+/* Buscador de Empleados */
+
+.buscador{
+    padding: 2%;
+    width: 100%;
+}
+
+.buscar{
+    border-bottom: green 4px solid;
+    width: 100%;
+    height: auto;
+    padding: 3%;
+}
+
+#Buscar{
+    color: green;
+    justify-content: flex-start;
+    font-style: unset;
+    font-size: 16px;
+    width: 60%;
+    padding: 11px;
+    border: 2px solid rgb(6, 78, 6);
+    border-radius: 8px;
+    background:none;
+    transition: all .2s cubic-bezier(.83,.9,.68,.73);
+}
+
+
+#Buscar1{
+    color: white;
+    justify-content: flex-start;
+    background: green;
+    font-style: unset;
+    font-size: 15px;
+    width: 13%;
+    padding: 5px;
+    border: 2px solid rgb(6, 78, 6);
+    border-radius: 8px;
+    transition: all .2s cubic-bezier(.83,.9,.68,.73);
+}
+
+
+#BuscarImg{
+    width: 4%;
+}
+
+
+
+.no_existe{
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: brown;
+    padding: 5px;
+}
+
+
+
+
+.empleado{
+    text-decoration: none;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+.empleado:hover{
+    color: red;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+/* Fin de Buscador Empleados */

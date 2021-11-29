@@ -1,0 +1,77 @@
+.caret {
+    color: green;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 8px solid;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+.dropbtn {
+    height: 50px;
+    width: 50%;
+    background-color: #30C30C;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.dropdown {
+    margin-right: 60px;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+.dropdown-content {
+    margin-top: 3px;
+    width: 140px;
+    border-top: black 1px solid;
+    font-size: 16px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    overflow: auto;
+    box-shadow: 1px 2px 5px 1px black;;
+}
+
+
+.perfil{
+    color: black;
+    background: #f9f9f9;
+    padding: 10px;
+    padding-bottom: 12%;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    border-bottom: 2px gray solid;
+}
+
+.dropdown-content a {
+    text-align: left;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+.perfil:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+
+.salir{
+    border-top: 2px gray solid;
+}
